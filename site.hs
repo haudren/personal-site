@@ -23,6 +23,10 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
+    match "citations/*" $ do
+        route idRoute
+        compile copyFileCompiler
+
     match "pages/*" $ do
         route $ setExtension "html"
         compile $ pandocCompiler
