@@ -5,7 +5,7 @@ title: Publications
 2017
 ==========
 
-1. Hervé Audren and Abderrahmane Kheddar, *Model-Predictive Control in Multi-Contact Based on Stability Polyhedrons* in IEEE-RAS International Conference on Humanoid Robots.
+1. Hervé Audren and Abderrahmane Kheddar, *Model-Predictive Control in Multi-Contact Based on Stability Polyhedrons* in IEEE-RAS International Conference on Humanoid Robots. [HAL](https://hal-lirmm.ccsd.cnrs.fr/lirmm-01624017)
 
 2. Hervé Audren and Abderrahmane Kheddar, *3D Robust Stability Polyhedron in Multi-Contact*, submitted to IEEE-TRO. [HAL](https://hal-lirmm.ccsd.cnrs.fr/lirmm-01477362)
 

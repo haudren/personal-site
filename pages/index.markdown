@@ -14,5 +14,4 @@ upload the final electronic version once the defence is passed. If you
 would like to obtain a draft, simply contact me.
 
 Outside of the lab, I really like to go rock climbing or biking, but on
-rainy days I thoroughly enjoy my Nintendo Switch (Currently playing
-Disgaea 5).
+rainy days I thoroughly enjoy my Nintendo Switch (Currently playing Mario Odyssey).
