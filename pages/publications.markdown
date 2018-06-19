@@ -2,12 +2,19 @@
 title: Publications
 ---
 
+2018
+==========
+
+1. Mehdi Benallegue, Pierre Gergondet, Hervé Audren, Alexis Mifsud, Mitsuharu Morisawa, Florent Lamiraux, Abderrahmane Kheddar and Fumio Kanehiro, *Model-Based External Force/Moment Estimation For Humanoid Robots With No Torque Measurement*, in IEEE International Conference on Robotics and Automation. [HAL](https://hal.archives-ouvertes.fr/hal-01746095)
+
 2017
 ==========
 
 1. Hervé Audren and Abderrahmane Kheddar, *Model-Predictive Control in Multi-Contact Based on Stability Polyhedrons* in IEEE-RAS International Conference on Humanoid Robots. [HAL](https://hal-lirmm.ccsd.cnrs.fr/lirmm-01624017)
 
-2. Hervé Audren and Abderrahmane Kheddar, *3D Robust Stability Polyhedron in Multi-Contact*, submitted to IEEE-TRO. [HAL](https://hal-lirmm.ccsd.cnrs.fr/lirmm-01477362)
+2. Hervé Audren and Abderrahmane Kheddar, *3D Robust Stability Polyhedron in Multi-Contact*, in IEEE Transactions on Robotics (TRO). [HAL](https://hal-lirmm.ccsd.cnrs.fr/lirmm-01477362)
+
+3. Hervé Audren, *On Multi-Contact Dynamic Motion Using Reduced Models*, Ph.D. Thesis. [TEL](https://tel.archives-ouvertes.fr/tel-01706651)
 
 
 2016
