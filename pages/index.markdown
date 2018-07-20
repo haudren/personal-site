@@ -17,7 +17,6 @@ titled "On multi-contact dynamic motion using reduced models" and the PDF is
 available from the [publications](publications.html) page.
 
 Outside of the lab, I really like to go rock climbing or biking, but on
-rainy days I thoroughly enjoy my Nintendo Switch (Currently playing Donkey
-Kong Country : Tropical Freeze).
+rainy days I thoroughly enjoy my Nintendo Switch (Currently playing Octopath Traveler).
 
 [1]: https://www.ascent.ai
