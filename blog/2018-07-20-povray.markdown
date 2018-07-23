@@ -4,3 +4,18 @@ title: Projecting 3D points into Pov-Ray scene
 
 
 It's a raytracer
+
+```python
+import numpy as np
+import vapory
+
+a = 3*b
+
+def f(x):
+    return 3*x
+
+assert(f(b) == a)
+
+c = 'coucou'
+
+```
