@@ -1,5 +1,5 @@
 ---
-title: Projecting 3D points into Pov-Ray scene
+title: Projecting 3D points into image using Pov-Ray
 ---
 
 When using a 3D modeling environment, it is oftentimes useful to know where a given
