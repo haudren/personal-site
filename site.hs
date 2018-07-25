@@ -33,6 +33,28 @@ main = hakyll $ do
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
 
+    match "blog/*" $ do
+        route $ setExtension "html"
+        compile $ pandocCompiler
+            >>= saveSnapshot "content"
+            >>= loadAndApplyTemplate "templates/default.html" postCtx
+            >>= relativizeUrls
+
+    match "assets/*" $ do
+        route idRoute
+        compile copyFileCompiler
+
+    create ["pages/blog.html"] $ do
+        route idRoute
+        compile $ do
+            posts <- loadAllSnapshots "blog/*" "content"
+            sorted <- recentFirst posts
+            itemTemplate <- loadBody "templates/post.html"
+            list <- applyTemplateList itemTemplate postCtx sorted
+            makeItem list
+                >>= loadAndApplyTemplate "templates/default.html" (blogCtx list)
+                >>= relativizeUrls
+
     match "templates/*" $ compile templateCompiler
 
 
@@ -40,4 +62,10 @@ main = hakyll $ do
 postCtx :: Context String
 postCtx =
     dateField "date" "%B %e, %Y" `mappend`
+    defaultContext
+
+blogCtx :: String -> Context String
+blogCtx list =
+    constField "title" "Blog" `mappend`
+    constField "body" list `mappend`
     defaultContext

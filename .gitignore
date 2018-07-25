@@ -10,6 +10,9 @@ cabal-dev
 cabal.sandbox.config
 cabal.config
 
+.stack-work
+stack.yaml
+
 _cache/
 _site/
 site
