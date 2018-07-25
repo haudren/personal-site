@@ -36,8 +36,8 @@ The intrinsic matrix
 --------------------
 
 For PoV-Ray, the "film"  on which the image will be deposited is 1 unit away from
-the camera. PoV-Ray also uses only one FoV angle. Thus, again [following][4], the
-intrinsic matrix can be computed using the following formula, given the FoV angle
+the camera. PoV-Ray also uses only one FoV angle. Thus, again following [this page][4]
+, the intrinsic matrix can be computed using the following formula, given the FoV angle
 and image dimensions.
 
 ```python
@@ -128,7 +128,7 @@ plt.imshow(img)
 
 The result should be a random arrangement of yellow cubes against a blue background,
 with some shadows, similar to this one:
-![cubes](assets/cubes.png)
+![cubes](/assets/cubes.png)
 
 If we now plot the box points in the image:
 
@@ -144,7 +144,7 @@ for bx in box_vertex:
 
 We obtain the desired result, where plotted vertices actually match the rendered
 cube vertices:
-![cubes with vertices](assets/result.png)
+![cubes with vertices](/assets/result.png)
 
 Note that some of the vertices go out of the image. You might want to clip the
 results to make sure that they actually land inside your viewport!

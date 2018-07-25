@@ -37,8 +37,12 @@ main = hakyll $ do
         route $ setExtension "html"
         compile $ pandocCompiler
             >>= saveSnapshot "content"
-            >>= loadAndApplyTemplate "templates/default.html" defaultContext
+            >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
+
+    match "assets/*" $ do
+        route idRoute
+        compile copyFileCompiler
 
     create ["pages/blog.html"] $ do
         route idRoute
