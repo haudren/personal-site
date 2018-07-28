@@ -67,5 +67,6 @@ postCtx =
 blogCtx :: String -> Context String
 blogCtx list =
     constField "title" "Blog" `mappend`
+    constField "math" "true" `mappend`
     constField "body" list `mappend`
     defaultContext
